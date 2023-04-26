@@ -34,4 +34,5 @@ Our case study demonstrates that running a Celestia light node on a server with 
 
 For those considering deploying a Celestia light node, our findings suggest that the node can operate efficiently on a server with modest RAM requirements. Moreover, by using a Golang script, it is possible to easily monitor and analyze RAM usage for optimal performance and resource allocation.
 
-### You
+# NOTE:
+You can see the output of the experiment in the png file that are named as ram_usage_chart_with_celestia and ram_usage_chart. 
