@@ -25,8 +25,12 @@ A Celestia light node is a lightweight node within the Celestia ecosystem, requi
 ### Empty Server Test:
 The empty server test showed that the RAM usage percentage hovered around 0.7%. This baseline value indicates the server's RAM consumption when no applications or services are running.
 
+![ram_usage_chart empty](https://user-images.githubusercontent.com/53251494/234844792-9042ae41-9596-4ec8-8aee-0698db9de85a.png)
+
 ### Server with Celestia Light Node Test:
 When the Celestia light node was running, the server's RAM usage percentage increased to an average of 5%. This increase can be attributed to the light node's operations, which require some RAM to function efficiently.
+
+![ram_usage_chart_with_celestia](https://user-images.githubusercontent.com/53251494/234844889-49a8764c-b81f-4326-b88c-579dffd78f99.png)
 
 ## Conclusion
 
@@ -35,4 +39,4 @@ Our case study demonstrates that running a Celestia light node on a server with 
 For those considering deploying a Celestia light node, our findings suggest that the node can operate efficiently on a server with modest RAM requirements. Moreover, by using a Golang script, it is possible to easily monitor and analyze RAM usage for optimal performance and resource allocation.
 
 # NOTE:
-You can see the output of the experiment in the png file that are named as ram_usage_chart_with_celestia and ram_usage_chart. 
+You can see the output of the experiment in graphics and in the png file that are named as **ram_usage_chart_with_celestia** and **ram_usage_chart empty**. 
